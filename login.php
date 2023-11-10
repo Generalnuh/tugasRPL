@@ -39,7 +39,7 @@ if (isset($_POST['proses'])) {
     <link href="sb-admin/css/sb-admin-2.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-info">
+<body class="bg-gradient-primary">
     <div class="container">
 
         <div class="row justify-content-center">
@@ -49,7 +49,7 @@ if (isset($_POST['proses'])) {
 
                         <div class="p-5">
                             <div class="text-center">
-                                <h4 class="h4 text-gray-900 mb-4"><b>LOGIN KE MANAJEMEN KEDAI RUNCIT</b></h4>
+                                <h4 class="h4 text-gray-900 mb-"><b>LOGIN KE MANAJEMEN KEDAI RUNCIT</b></h4>
                             </div>
                             <form class="form-login" method="POST">
                                 <div class="form-group">
@@ -61,13 +61,13 @@ if (isset($_POST['proses'])) {
                                 <button class="btn btn-primary btn-block" name="proses" type="submit"><i class="fa fa-lock"></i>
                                     SIGN IN</button>
                             </form>
-                            <!-- <hr>
-							<div class="text-center">
-								<a class="small" href="forgot-password.html">Forgot Password?</a>
-							</div>
-							<div class="text-center">
-								<a class="small" href="register.html">Create an Account!</a>
-							</div> -->
+                            <hr>
+                            <div class="text-center">
+                                <a class="small" href="forgot-password.html">Lupa Password?</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="register.html">Buat Akun Baru!</a>
+                            </div>
                         </div>
                     </div>
                 </div>
